@@ -1,6 +1,7 @@
 package com.relaxingleg.tutorial;
 
 import com.mojang.logging.LogUtils;
+import com.relaxingleg.tutorial.init.ModBlocks;
 import com.relaxingleg.tutorial.init.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
@@ -33,6 +34,8 @@ public class TutorialMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
+        ModBlocks.BLOCK_ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
