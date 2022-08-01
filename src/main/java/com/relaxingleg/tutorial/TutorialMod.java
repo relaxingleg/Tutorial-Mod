@@ -7,6 +7,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -39,4 +40,11 @@ public class TutorialMod {
 
         MinecraftForge.EVENT_BUS.register(this);
     }
+
+    public static final CreativeModeTab MOD_STUFF = new CreativeModeTab("mod_stuff") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModBlocks.SAPPHIRE_BLOCK.get());
+        }
+    };
 }
