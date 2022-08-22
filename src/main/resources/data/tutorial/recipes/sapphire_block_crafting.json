@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorial:sapphire"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "tutorial:sapphire_block",
+    "count": 1
+  }
+}
