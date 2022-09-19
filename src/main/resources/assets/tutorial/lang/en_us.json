@@ -2,5 +2,6 @@
   "item.tutorial.sapphire": "Sapphire",
   "block.tutorial.sapphire_block": "Sapphire Block",
   "itemGroup.mod_stuff": "Mod Stuff",
-  "block.tutorial.sapphire_ore": "Sapphire Ore"
+  "block.tutorial.sapphire_ore": "Sapphire Ore",
+  "block.tutorial.rotate_block": "Rotate Block"
 }
